@@ -1,0 +1,63 @@
+.w1{
+	width: 48%;
+	height: 8rem;
+	background-color: orange;
+	margin-bottom: 5rem;
+	float:left;
+	box-sizing: border-box;
+	margin-right:1rem;
+	}
+
+.w2{
+	width: 48%;
+	height: 8rem;
+	background-color: rgb(255, 30, 0);
+	/* margin-bottom: 5rem; */
+	float:right;
+	margin-left: 1rem;
+	}
+
+.wlogo1, .wlogo2{
+	width: 30%;
+	height: 8rem;
+	background-color: rgb(255, 255, 255);
+	line-height: 8rem;
+	text-align: center;
+	display: inline;
+	float:left;
+	}
+
+.wpara1, .wpara2{
+	width: 70%;
+	height: 8rem;
+	background-color: #ffc107;
+	display: inline;
+	float:right;
+	}
+
+.workexp{
+	margin-top: 4rem!important;
+	}
+
+.workexprow1{
+	margin-top: 3rem!important;
+	
+	box-sizing: border-box;
+	width: auto;
+	height: 8rem;
+	}
+
+
+					/*COMMON FOR UNITS*/
+
+@media(max-width:998px){
+	html{
+		font-size: 65%;
+		}
+	  }
+
+@media(max-width:768px){
+	html{
+		font-size: 48%;
+		}
+	  }
